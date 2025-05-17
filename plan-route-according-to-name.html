@@ -57,7 +57,7 @@
             const params = new URLSearchParams(window.location.search);
             return params.get(name) || null;
         }
-        const startPoint = getUrlParameter('start') || '北京市地震局(公交站)';
+        const startPoint = getUrlParameter('start') || '北京大学';
         const endPoint = getUrlParameter('end') || '亦庄文化园(地铁站)';
         //基本地图加载
         var map = new AMap.Map("container", {
